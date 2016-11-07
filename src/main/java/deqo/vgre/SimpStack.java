@@ -29,6 +29,7 @@ public class SimpStack implements SimpleStack {
     @Override
     public void push(Item item) {
         pile.push(item);
+        System.out.println("push successful");
     }
 
     @Override
